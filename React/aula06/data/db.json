@@ -1,0 +1,21 @@
+{
+    "noticias": [
+      {
+        "id": 1,
+        "titulo": "O mais quente do momento",
+        "content": "Hahahahahahaha"
+    
+      },
+      {
+        "id": 2,
+        "titulo": "Noticia Noticia Noticia",
+        "content": "3 pratos de trigo para 3 tigres tristes"
+      },
+      {
+        "id": 3,
+        "titulo": "hihi",
+        "content": "hiha"
+      }
+    ]
+  }
+  
