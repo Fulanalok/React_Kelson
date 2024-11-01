@@ -1,18 +1,24 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { Link } from "react-router-dom";
 
 const url = "http://localhost:3000/noticias";
 
-const Noticias = () => {
+const NoticiasAxios = () => {
   const [noticias, setNoticias] = useState([]);
 
   useEffect(() => {
-    async function fetchData() {
-      const response = await fetch(url);
-      const data = await response.json();
-      setNoticias(data);
-    }
-    fetchData();
+    const buscarNoticias = () => {
+      axios
+        .get(url)
+        .then((response) => {
+          setNoticias(response.data);
+        })
+        .catch((error) => {
+          console.error("Ocorreu um erro", error);
+        });
+    };
+    buscarNoticias();
   }, []);
 
   return (
@@ -33,4 +39,4 @@ const Noticias = () => {
   );
 };
 
-export default Noticias;
+export default NoticiasAxios;

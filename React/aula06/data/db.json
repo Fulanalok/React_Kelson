@@ -1,21 +1,25 @@
 {
-    "noticias": [
-      {
-        "id": 1,
-        "titulo": "O mais quente do momento",
-        "content": "Hahahahahahaha"
-    
-      },
-      {
-        "id": 2,
-        "titulo": "Noticia Noticia Noticia",
-        "content": "3 pratos de trigo para 3 tigres tristes"
-      },
-      {
-        "id": 3,
-        "titulo": "hihi",
-        "content": "hiha"
-      }
+    "noticias":[
+        {
+            "id": 1,
+            "titulo": "Amanhã não tem aula",
+            "texto": "bla bla bla bla bla"
+        },
+        {
+            "id": 2,
+            "titulo": "Provas canceladas",
+            "texto": "bla bla bla bla bla"
+        },
+        {
+            "id": 3,
+            "titulo": "Só notas boas",
+            "texto": "bla bla bla bla bla"
+        },
+        {
+            "id": 4,
+            "titulo": "Fome do caramba",
+            "texto": "bla bla bla bla bla"
+        }
+
     ]
-  }
-  
+}

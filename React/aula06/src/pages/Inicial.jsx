@@ -2,7 +2,9 @@ import React from 'react'
 
 const Inicial = () => {
   return (
-    <div>Inicial</div>
+    <div>
+        Aqui é a página inicial
+    </div>
   )
 }
 

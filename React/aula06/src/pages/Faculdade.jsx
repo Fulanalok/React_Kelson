@@ -1,12 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Faculdade = () => {
-  return (
-    <div>
-        <h1>Faculdade</h1> 
-        <p>Inserir aqui o conteudo sobre a faculdade </p>
-        </div>
-  )
-}
+  return <div>Aqui será a página sobre a faculdade</div>;
+};
 
-export default Faculdade
+export default Faculdade;
