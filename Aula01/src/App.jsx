@@ -1,8 +1,8 @@
 import React from 'react'
 import Adicao from './components/Adicao'
 import Divisao from './components/Divisao'
-import Multiplicacao from './components/Multiplicacao'
-import Subtracao from './components/Subtracao'
+import Multiplicacao from './components/multiplicacao'
+import Subtracao from './components/subtracao'
 
 const App = () => {
   return (
