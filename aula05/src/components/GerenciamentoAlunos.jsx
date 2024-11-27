@@ -23,8 +23,8 @@ const GerenciamentoAlunos = () => {
         <table border='1px'>
             <thead>
                 <tr>
-                    <th>Nome:</th>
-                    <th>Email:</th>
+                    <th>Nome: Lucas Freire Vilhena </th>
+                    <th>Email: fulanofrut@gmail.com </th>
                 </tr>
             </thead>
             <tbody>
